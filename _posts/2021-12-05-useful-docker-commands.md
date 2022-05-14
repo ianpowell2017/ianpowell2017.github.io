@@ -18,7 +18,9 @@ tags: []
 - To remove a container - `docker rm {container id}`
 
 To copy files into a container
-`docker cp /tmp/config.ini grafana:/usr/share/grafana/conf/`
-`docker cp /tmp/config.ini 1477326feb62:/usr/share/grafana/conf/`
+``` bash
+docker cp /tmp/config.ini grafana:/usr/share/grafana/conf/
+docker cp /tmp/config.ini 1477326feb62:/usr/share/grafana/conf/
+```
 
 
