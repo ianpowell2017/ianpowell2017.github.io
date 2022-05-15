@@ -13,7 +13,7 @@ OR
 1. Create a file in the project root called `Dockerfile` (no extension)
 2. Inside the file
 
-``` 
+```dockerfile
 FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /build
 COPY . .
@@ -27,17 +27,19 @@ ENTRYPOINT ["dotnet", "ConferenceApp.dll"]
 ```
 
 To build image (from project root)
-`docker build -t conference/api .`
+: `docker build -t conference/api .`
 
-To remove
-- All Stopped containers
-- All networks not used by at least one container
-- All dangling images
-- All build cache
+To remove the image
+: `docker system prune`
+    
+    * All Stopped containers
+    * All networks not used by at least one container
+    * All dangling images
+    * All build cache
 
-`docker system prune`
 
 To run a docker image
-`docker run -d —name {chosen name} {image name:tag}`
+: `docker run -d —name {chosen name} {image name:tag}`
+
 If an image has exited with a status code of other than 0, then it has not exited properly, perhaps there’s an error
-`docker logs {container name}`
+: `docker logs {container name}`

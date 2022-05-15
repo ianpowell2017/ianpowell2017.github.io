@@ -6,7 +6,7 @@ categories: [mac]
 tags: [misc]
 ---
 
-I keep catching the `fn` `globe` keyboard button and the smiley on-screen keyboard pops up, really annoying!
+I keep catching the <kbd>fn</kbd> or <kbd>globe</kbd> button on the mac keyboard and the smiley on-screen keyboard pops up, really annoying!
 
 Disabling this shortcut can be accomplished by opening the System Preferences and navigating to the Keyboard panel.
 

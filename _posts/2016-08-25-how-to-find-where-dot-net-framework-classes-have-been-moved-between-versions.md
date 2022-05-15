@@ -6,7 +6,7 @@ categories: [.net]
 tags: [c#]
 ---
 
-Useful website which enables you to searh where classes and methods have been moved to between versions of .net framework eg. FileStream
+Useful website which enables you to searh where classes and methods have been moved to between versions of .net framework eg. `FileStream`
 
 [http://packagesearch.azurewebsites.net](http://packagesearch.azurewebsites.net)
 
