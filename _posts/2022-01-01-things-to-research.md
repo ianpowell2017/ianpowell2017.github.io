@@ -9,6 +9,7 @@ pin: true
 
 - [ ] [SVELTE](https://svelte.dev/tutorial/making-an-app) - Latest Frontend framework
 - [ ] [Rust Learning](https://doc.rust-lang.org/book/ch08-02-strings.html) - Finish tutorial
+- [ ] [Caddy server](https://caddyserver.com/docs/getting-started)
 - [x] Completed
 - [ ] Defeat COVID-19
   - [x] Vaccine production

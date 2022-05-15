@@ -10,4 +10,8 @@ tags: [c#]
 var result = await Task<OssObject>.Factory.FromAsync(client.BeginGetObject, client.EndGetObject, bucketName, key, null);
 ```
 
-In this example, `OssObject` is the return object from `click.BeginGetObject`, the next argument `client.EndGetObject` gets called on the completion.  `bucketName` happens to be an argument passed into `BeginGetObject`.
+`OssObject` is the return object in method `click.BeginGetObject`
+
+`client.EndGetObject` is the method which gets called once the `BeginGetObject` has completed.
+
+`bucketName` happens to be an argument passed into `BeginGetObject`.
