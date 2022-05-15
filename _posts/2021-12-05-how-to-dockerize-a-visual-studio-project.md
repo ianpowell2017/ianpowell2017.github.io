@@ -39,7 +39,11 @@ To remove the image
 
 
 To run a docker image
-: `docker run -d —name {chosen name} {image name:tag}`
+: ``` bash
+docker run -d —name {chosen name} {image name:tag}
+```
 
 If an image has exited with a status code of other than 0, then it has not exited properly, perhaps there’s an error
-: `docker logs {container name}`
+: ``` bash
+docker logs {container name}
+```
