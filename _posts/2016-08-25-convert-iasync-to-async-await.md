@@ -6,7 +6,7 @@ categories: [.net]
 tags: [c#]
 ---
 
-``` c#
+```c#
 var result = await Task<OssObject>.Factory.FromAsync(client.BeginGetObject, client.EndGetObject, bucketName, key, null);
 ```
 

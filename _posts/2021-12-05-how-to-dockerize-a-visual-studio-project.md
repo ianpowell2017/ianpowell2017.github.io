@@ -27,10 +27,14 @@ ENTRYPOINT ["dotnet", "ConferenceApp.dll"]
 ```
 
 To build image (from project root)
-: `docker build -t conference/api .`
+: ```bash
+docker build -t conference/api .
+```
 
 To remove the image
-: `docker system prune`
+: ```bash
+docker system prune
+```
     
     * All Stopped containers
     * All networks not used by at least one container
@@ -39,11 +43,11 @@ To remove the image
 
 
 To run a docker image
-: ``` bash
+: ```bash
 docker run -d —name {chosen name} {image name:tag}
 ```
 
 If an image has exited with a status code of other than 0, then it has not exited properly, perhaps there’s an error
-: ``` bash
+: ```bash
 docker logs {container name}
 ```

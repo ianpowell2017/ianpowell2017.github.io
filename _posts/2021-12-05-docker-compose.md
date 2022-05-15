@@ -33,11 +33,11 @@ services:
       - ./db:/docker-entrypoint-initdb.d
 ```
 ## To run the docker compose file
-``` bash
+```bash
 docker-compose up
 ```
 ## To push your container to docker hub
-``` bash
+```bash
 docker tag {imageId} {username name}/{container name}:{tag name}
 ```
 ## To log into your docker account
@@ -45,6 +45,6 @@ docker tag {imageId} {username name}/{container name}:{tag name}
 docker login
 ```
 
-``` bash 
+```bash 
 docker push {username}/{container name}:{tag name}
 ```
