@@ -17,15 +17,15 @@ gantt
     Week 2 (10th July - 16th July)  :b1, 2019-07-10, 1w
 
     section Ceremonies
-    Store refinement        :crit, st1, 2019-07-01, 1h
+    Story refinement        :crit, st1, 2019-07-01, 1h
     Previous sprint review  :active, sprintreview1, 2019-07-03, 1h
     Retrospective           :active, retrospective1, after sprintreview1, 1h
     Sprint planning         :active, sprintplanning1, after retrospective1, 1h
-    Store refinement        :crit, st2, 2019-07-04, 1h
+    Story refinement        :crit, st2, 2019-07-04, 1h
 
-    Store refinement        :crit, st3, 2019-07-08, 1h
-    Store refinement        :crit, st4, 2019-07-11, 1h
-    Store refinement        :crit, st4, 2019-07-15, 1h
+    Story refinement        :crit, st3, 2019-07-08, 1h
+    Story refinement        :crit, st4, 2019-07-11, 1h
+    Story refinement        :crit, st4, 2019-07-15, 1h
 
     Previous sprint review  :active, sprintreview2, 2019-07-17, 1h    
     Retrospective           :active, retrospective2, after sprintreview2, 1h    
