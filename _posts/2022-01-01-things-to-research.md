@@ -18,3 +18,4 @@ pin: true
   - [ ] [Rx .net](https://github.com/dotnet/reactive)
   - [ ] [akka.net](https://getakka.net/)
   - [ ] [Aws Fargate](https://aws.amazon.com/fargate/)
+- [ ] [ASP.NET Core: Building a GraphQL API](https://www.linkedin.com/learning/asp-dot-net-core-building-a-graphql-api)
