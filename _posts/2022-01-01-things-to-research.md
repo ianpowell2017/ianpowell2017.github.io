@@ -14,3 +14,5 @@ pin: true
   - [ ] Web sockets streaming
   - [ ] gRPC
   - [ ] Kafka
+  - [ ] [Rx .net](https://github.com/dotnet/reactive)
+  - [ ] [akka.net](https://getakka.net/)
