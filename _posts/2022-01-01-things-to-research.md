@@ -16,3 +16,4 @@ pin: true
   - [ ] Kafka
   - [ ] [Rx .net](https://github.com/dotnet/reactive)
   - [ ] [akka.net](https://getakka.net/)
+  - [ ] [Aws Fargate](https://aws.amazon.com/fargate/)
