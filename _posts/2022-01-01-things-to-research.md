@@ -13,3 +13,4 @@ pin: true
 - [ ] [Hazelcast](https://hazelcast.com/) - Its what AWS Kinesis is built upon
   - [ ] Web sockets streaming
   - [ ] gRPC
+  - [ ] Kafka
