@@ -11,3 +11,5 @@ pin: true
 - [ ] [Rust Learning](https://doc.rust-lang.org/book/ch08-02-strings.html) - Finish tutorial
 - [ ] [Caddy server](https://caddyserver.com/docs/getting-started)
 - [ ] [Hazelcast](https://hazelcast.com/) - Its what AWS Kinesis is built upon
+  - [ ] Web sockets streaming
+  - [ ] gRPC
