@@ -35,8 +35,14 @@ gantt
     We - 30m :active, sprintplanning2, after retrospective2, 1h
 ```
 
+| Week | Monday        | Tuesday | Wednesday                                               | Thursday      | Friday |
+|------|---------------|---------|---------------------------------------------------------|---------------|--------|
+| One  | Refinement 1h |         | Sprint Review 30m<br/>Retrospective 30m<br/>Sprint Planning 30m | Refinement 1h |        |
+| Two  | Refinement 1h |         |                                                         | Refinement 1h |        |
+
 Monday Refinement 1 hour
 
 Sprint
 * Week 1 starts Wednesday 3rd July - 9th July
 * Week 2 of sprint starts Wednesday 10th July - 16th July
+
