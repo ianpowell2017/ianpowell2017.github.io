@@ -209,3 +209,131 @@ To learn more shortcuts, check the menus of the app you're using. Every app can 
 <kbd>Shift</kbd>–<kbd>Command</kbd>–<kbd>–Plus sign (+)</kbd> Increase the size of the selected item. <kbd>Command</kbd>–<kbd>Equal sign (=)</kbd> performs the same function
 
 <kbd>Shift</kbd>–<kbd>Command</kbd>–<kbd>Question mark (?)</kbd> Open the Help menu
+
+## Finder shortcuts
+
+<kbd>Command</kbd>-<kbd>D</kbd> Duplicate the selected files.
+
+<kbd>Command</kbd>-<kbd>E</kbd> Eject the selected disk or volume.
+
+<kbd>Command</kbd>-<kbd>F</kbd> Start a Spotlight search in the Finder window.
+
+<kbd>Command</kbd>-<kbd>I</kbd> Show the Get Info window for a selected file.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>C</kbd> Open the Computer window.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>D</kbd> Open the desktop folder.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>F</kbd> Open the All My Files window.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>G</kbd> Open a Go to Folder window.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>H</kbd> Open the Home folder of the current OS X user account.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>I</kbd> Open iCloud Drive.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>K</kbd> Open the Network window.
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>L</kbd> Open the Downloads folder.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>O</kbd> Open the Documents folder.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>R</kbd> Open the AirDrop window.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>T</kbd> Add selected Finder item to the Dock (OS X Mountain Lion or earlier)
+
+<kbd>Control</kbd>-<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>T</kbd> Add selected Finder item to the Dock (OS X Mavericks or later)
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>U</kbd> Open the Utilities folder.
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>D</kbd> Show or hide the Dock. This often works even when you're not in the Finder.
+
+<kbd>Control</kbd>-<kbd>Command</kbd>-<kbd>T</kbd> Add the selected item to the sidebar (OS X Mavericks or later).
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>P</kbd> Hide or show the path bar in Finder windows.
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>S</kbd> Hide or show the Sidebar in Finder windows.
+
+<kbd>Command–Slash (/)</kbd> Hide or show the status bar in Finder windows.
+
+<kbd>Command</kbd>-<kbd>J</kbd> Show View Options.
+
+<kbd>Command</kbd>-<kbd>K</kbd> Open the Connect to Server window.
+
+<kbd>Command</kbd>-<kbd>L</kbd> Make an alias of the selected item.
+
+<kbd>Command</kbd>-<kbd>N</kbd> Open a new Finder window.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>N</kbd> Create a new folder.
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>N</kbd> Create a new Smart Folder.
+
+<kbd>Command</kbd>-<kbd>R</kbd> Show the original file for the selected alias.
+
+<kbd>Command</kbd>-<kbd>T</kbd> Show or hide the tab bar when a single tab is open in the current Finder window.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>T</kbd> Show or hide a Finder tab.
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>T</kbd> Show or hide the toolbar when a single tab is open in the current Finder window.
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>V</kbd> Move: Move the files in the Clipboard from their original location to the current location.
+
+<kbd>Option</kbd>-<kbd>Command</kbd>-<kbd>Y</kbd> View a Quick Look slideshow of the selected files.
+
+<kbd>Command</kbd>-<kbd>Y</kbd> Use Quick Look to preview the selected files.
+
+<kbd>Command</kbd>-<kbd>1</kbd> View the items in the Finder window as icons.
+
+<kbd>Command</kbd>-<kbd>2</kbd> View the items in a Finder window as a list.
+
+<kbd>Command</kbd>-<kbd>3</kbd> View the items in a Finder window in columns. 
+
+<kbd>Command</kbd>-<kbd>4</kbd> View the items in a Finder window with Cover Flow.
+
+<kbd>Command–Left Bracket ([)</kbd> Go to the previous folder.
+
+<kbd>Command–Right Bracket (])</kbd> Go to the next folder.
+
+<kbd>Command–Up Arrow</kbd> Open the folder that contains the current folder.
+
+<kbd>Command–Control–Up Arrow</kbd> Open the folder that contains the current folder in a new window.
+
+<kbd>Command–Down Arrow</kbd> Open the selected item.
+
+<kbd>Command–Mission Control</kbd> Show the desktop. This works even when you're not in the Finder.
+
+<kbd>Command–Brightness</kbd> Up Turn Target Display Mode on or off.
+
+<kbd>Command–Brightness</kbd> Down Turn display mirroring on or off when your Mac is connected to more than one display.
+
+<kbd>Right Arrow</kbd> Open the selected folder. This works only when in list view.
+
+<kbd>Left Arrow</kbd> Close the selected folder. This works only when in list view.
+
+<kbd>Option–double</kbd>-<kbd>click</kbd> Open a folder in a separate window and close the current window.
+
+<kbd>Command–double</kbd>-<kbd>click</kbd> Open a folder in a separate tab or window.
+
+<kbd>Command</kbd>-<kbd>Delete</kbd> Move the selected item to the Trash.
+
+<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>Delete</kbd> Empty the Trash.
+
+<kbd>Option</kbd>-<kbd>Shift</kbd>-<kbd>Command</kbd>-<kbd>Delete</kbd> Empty the Trash without confirmation dialog.
+
+<kbd>Command</kbd>-<kbd>Y</kbd> Use Quick Look to preview the files.
+
+<kbd>Option–Brightness Up</kbd> Open Displays preferences. This works with either Brightness key.
+
+<kbd>Option–Mission Control</kbd> Open Mission Control preferences.
+
+<kbd>Option–Volume Up</kbd> Open Sound preferences. This works with any of the volume keys.
+
+<kbd>Command</kbd> key while dragging Move the dragged item to another volume or location. The pointer changes while you drag the item.
+
+<kbd>Option</kbd> key while dragging Copy the dragged item. The pointer changes while you drag the item.
+
+<kbd>Option</kbd>-<kbd>Command</kbd> while dragging Make an alias of the dragged item. The pointer changes while you drag the item.
+
+<kbd>Option</kbd>-click a disclosure triangle Open all folders within the selected folder. This works only when in list view.
+
+<kbd>Command</kbd>-click a window title See the folders that contain the current folder.
