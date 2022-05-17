@@ -15,6 +15,7 @@ pin: true
   - [ ] gRPC
   - [ ] [Kafka](https://kafka.apache.org)
     - [ ] [Learning video](https://www.linkedin.com/learning/apache-kafka-essential-training-getting-started)
+    - [X] [Event sourcing pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
   - [ ] [Rx .net](https://github.com/dotnet/reactive)
   - [ ] [akka.net](https://getakka.net/)
   - [ ] [Aws Fargate](https://aws.amazon.com/fargate/)
