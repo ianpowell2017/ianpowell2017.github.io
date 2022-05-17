@@ -3,7 +3,7 @@ title: How to convert IAsync to Task Await Async
 author: ianpowell
 date: 2016-08-25 18:34:00 +0100
 categories: [.net]
-tags: [c#]
+tags: [c#,async-pattern]
 ---
 
 ```c#

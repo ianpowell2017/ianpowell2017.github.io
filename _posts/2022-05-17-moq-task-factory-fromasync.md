@@ -1,21 +1,21 @@
 ---
-title: How to find where .net framework classes have been moved between versions
+title: Mocking Begin/End Async API
 author: ianpowell
 date: 2022-05-17 19:36:00 +0100
 categories: [.net]
-tags: [c#,testing,moq]
+tags: [c#,testing,moq,async-pattern]
 ---
 
 ## Moq
 
-### Code that needs mocking
+### Example
 
 ```c#
 var request = new ReceiveMessageRequest();
 var msg = await Task<ReceiveMessageResponse>.Factory.FromAsync(queue.BeginReceiveMessage, queue.EndReceiveMessage, request, null);
 ```
 
-### Successfully mocked method
+### Test
 
 ```c#
 var receiveMessageAsyncResult = new Mock<IAsyncResult>();
