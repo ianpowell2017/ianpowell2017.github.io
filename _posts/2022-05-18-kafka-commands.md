@@ -1,12 +1,12 @@
 ---
-title: Kafka commands
+title: Kafka notes
 author: ianpowell
 date: 2022-05-18 12:34:00 +0100
 categories: [kafka]
 tags: [misc]
 ---
 
-## Kafka commands
+## Kafka
 ### Scripts directory
 
 ``` bash
@@ -63,7 +63,7 @@ cd /opt/bitnami/kafka/bin
 
 ``` bash
 ./kafka-console-producer.sh \
-    --bootstrap-server localhost:29092 \
+    --bootstrap-server localhost:9092 \
     --topic kafka.learning.tweets
 ```
 
@@ -136,3 +136,57 @@ cd /opt/bitnami/kafka/bin
     --describe \
     --all-groups
 ```
+## Dockerfile
+
+``` dockerfile
+version: '2'
+services:
+
+#Zookeeper Service.
+  zookeeper:
+    image: 'bitnami/zookeeper:latest'
+    restart: "no"
+    ports:
+      - '2181:2181'
+    volumes:
+      - "zookeeper_data:/bitnami"
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+    container_name: zookeeper
+
+#Kafka Service
+  kafka:
+    image: 'bitnami/kafka:latest'
+    restart: "no"
+    ports:
+      - '9092:9092'
+      - '29092:29092'
+    volumes:
+      - "kafka_data:/bitnami"
+    environment:
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      - KAFKA_CFG_LISTENERS=INTERNAL://:29092,EXTERNAL://:9092
+      - KAFKA_CFG_ADVERTISED_LISTENERS=INTERNAL://kafka:29092,EXTERNAL://docker-pve.localdomain:9092
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_INTER_BROKER_LISTENER_NAME=INTERNAL
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      
+    container_name: kafka-broker
+    
+    depends_on:
+      - "zookeeper"
+    
+volumes:
+  zookeeper_data:
+    driver: local
+  kafka_data:
+    driver: local
+```
+
+## Errors
+
+### Connection problems
+- `thrd:localhost:9092/1001]: localhost:9092/1001: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2047ms in state CONNECT)`
+
+- The advertised broker address is set to localhost, needs docker host DNS address
+- Update this line to contain docker address instead, example, `KAFKA_CFG_ADVERTISED_LISTENERS=INTERNAL://kafka:29092,EXTERNAL://docker-pve.localdomain:9092`
