@@ -1,24 +1,31 @@
 ---
-title: Kafka command
+title: Kafka commands
 author: ianpowell
 date: 2022-05-18 12:34:00 +0100
 categories: [kafka]
 tags: [misc]
 ---
 
-## Logging into the Kafka Container
+## Kafka commands
+### Scripts directory
+
+``` bash
+/opt/bitnami/kafka/bin
+```
+
+### Logging into the Kafka Container
 
 ``` bash
 docker exec -it kafka-broker /bin/bash
 ```
 
-## Navigate to the Kafka Scripts directory
+### Navigate to the Kafka Scripts directory
 
 ``` bash
 cd /opt/bitnami/kafka/bin
 ```
 
-## Creating new Topics
+### Creating new Topics
 
 ``` bash
 ./kafka-topics.sh \
@@ -36,7 +43,7 @@ cd /opt/bitnami/kafka/bin
     --replication-factor 1
 ```
 
-## Listing Topics
+### Listing Topics
 
 ``` bash
 ./kafka-topics.sh \
@@ -44,7 +51,7 @@ cd /opt/bitnami/kafka/bin
     --list
 ```
 
-## Getting details about a Topic
+### Getting details about a Topic
 
 ``` bash
 ./kafka-topics.sh \
@@ -52,7 +59,7 @@ cd /opt/bitnami/kafka/bin
     --describe
 ```
 
-## Publishing Messages to Topics
+### Publishing Messages to Topics
 
 ``` bash
 ./kafka-console-producer.sh \
@@ -60,7 +67,7 @@ cd /opt/bitnami/kafka/bin
     --topic kafka.learning.tweets
 ```
 
-## Consuming Messages from Topics
+### Consuming Messages from Topics
 
 ``` bash
 ./kafka-console-consumer.sh \
@@ -69,7 +76,7 @@ cd /opt/bitnami/kafka/bin
     --from-beginning
 ```
 
-## Deleting Topics
+### Deleting Topics
 
 ``` bash
 ./kafka-topics.sh \
@@ -79,7 +86,7 @@ cd /opt/bitnami/kafka/bin
 ```
 
 
-## Create a Topic with multiple partitions
+### Create a Topic with multiple partitions
 
 ``` bash
 ./kafka-topics.sh \
@@ -90,7 +97,7 @@ cd /opt/bitnami/kafka/bin
     --replication-factor 1
 ```
 
-## Check topic partitioning
+### Check topic partitioning
 
 ``` bash
 ./kafka-topics.sh \
@@ -99,7 +106,7 @@ cd /opt/bitnami/kafka/bin
     --describe
 ```
 
-## Publishing Messages to Topics with keys
+### Publishing Messages to Topics with keys
 
 ``` bash
 ./kafka-console-producer.sh \
@@ -109,7 +116,7 @@ cd /opt/bitnami/kafka/bin
     --topic kafka.learning.orders
 ```
 
-## Consume messages using a consumer group
+### Consume messages using a consumer group
 
 ``` bash
 ./kafka-console-consumer.sh \
@@ -121,7 +128,7 @@ cd /opt/bitnami/kafka/bin
     --from-beginning
 ```
 
-## Check current status of offsets
+### Check current status of offsets
 
 ``` bash
 ./kafka-consumer-groups.sh \
