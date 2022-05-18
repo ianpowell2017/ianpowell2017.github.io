@@ -14,7 +14,9 @@ pin: true
   - [ ] Web sockets streaming
   - [ ] gRPC
   - [ ] [Kafka](https://kafka.apache.org)
-    - [ ] [Learning video](https://www.linkedin.com/learning/apache-kafka-essential-training-getting-started)
+    - [X] [Essential Kafka Learning video](https://www.linkedin.com/learning/apache-kafka-essential-training-getting-started)
+    - [ ] [Building scalable applications](https://www.linkedin.com/learning/apache-kafka-essential-training-building-scalable-applications)
+    - [ ] [Stream processing desing](https://www.linkedin.com/learning/stream-processing-design-patterns-with-kafka-streams)
   - [ ] [Rx .net](https://github.com/dotnet/reactive)
   - [ ] [akka.net](https://getakka.net/)
   - [ ] [Aws Fargate](https://aws.amazon.com/fargate/)
