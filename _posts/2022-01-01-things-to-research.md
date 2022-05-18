@@ -15,8 +15,9 @@ pin: true
   - [ ] gRPC
   - [ ] [Kafka](https://kafka.apache.org)
     - [ ] [Learning video](https://www.linkedin.com/learning/apache-kafka-essential-training-getting-started)
-    - [X] [Event sourcing pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
   - [ ] [Rx .net](https://github.com/dotnet/reactive)
   - [ ] [akka.net](https://getakka.net/)
   - [ ] [Aws Fargate](https://aws.amazon.com/fargate/)
+- [ ] [Read Microsoft Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+    - [X] [Event sourcing pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
 - [ ] [ASP.NET Core: Building a GraphQL API](https://www.linkedin.com/learning/asp-dot-net-core-building-a-graphql-api)
