@@ -10,13 +10,12 @@ pin: true
 - [ ] [SVELTE](https://svelte.dev/tutorial/making-an-app) - Latest Frontend framework
 - [ ] [Rust Learning](https://doc.rust-lang.org/book/ch08-02-strings.html) - Finish tutorial
 - [ ] [Caddy server](https://caddyserver.com/docs/getting-started)
-- [ ] [Hazelcast](https://hazelcast.com/) - Its what AWS Kinesis is built upon
+- [ ] [Hazelcast](https://hazelcast.com/) - [Info](https://docs.hazelcast.com/imdg/4.2/installation/installing-using-docker)
   - [ ] Web sockets streaming
   - [ ] gRPC
   - [ ] [Kafka](https://kafka.apache.org)
     - [X] [Essential Kafka Learning video](https://www.linkedin.com/learning/apache-kafka-essential-training-getting-started)
-    - [ ] [Building scalable applications](https://www.linkedin.com/learning/apache-kafka-essential-training-building-scalable-applications)
-    - [ ] [Stream processing desing](https://www.linkedin.com/learning/stream-processing-design-patterns-with-kafka-streams)
+    - [ ] [Stream processing desing](https://www.linkedin.com/learning/stream-processing-design-patterns-with-kafka-streams) - Only in Scala / Java
   - [ ] [Rx .net](https://github.com/dotnet/reactive)
   - [ ] [akka.net](https://getakka.net/)
   - [ ] [Aws Fargate](https://aws.amazon.com/fargate/)
