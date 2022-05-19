@@ -21,4 +21,5 @@ pin: true
   - [ ] [Aws Fargate](https://aws.amazon.com/fargate/)
 - [ ] [Read Microsoft Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
     - [X] [Event sourcing pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
+    - [X] [Strangler fig](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)
 - [ ] [ASP.NET Core: Building a GraphQL API](https://www.linkedin.com/learning/asp-dot-net-core-building-a-graphql-api)
