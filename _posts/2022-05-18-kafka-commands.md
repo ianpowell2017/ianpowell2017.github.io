@@ -3,10 +3,11 @@ title: Kafka notes
 author: ianpowell
 date: 2022-05-18 12:34:00 +0100
 categories: [kafka]
-tags: [misc]
+tags: [c#]
 ---
 
 ## Kafka
+
 ### Scripts directory
 
 ``` bash
@@ -186,7 +187,75 @@ volumes:
 ## Errors
 
 ### Connection problems
+
 - `thrd:localhost:9092/1001]: localhost:9092/1001: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2047ms in state CONNECT)`
 
 - The advertised broker address is set to localhost, needs docker host DNS address
 - Update this line to contain docker address instead, example, `KAFKA_CFG_ADVERTISED_LISTENERS=INTERNAL://kafka:29092,EXTERNAL://docker-pve.localdomain:9092`
+
+## C# Sample code
+
+``` powershell 
+Install-Package 'Confluent.Kafka'
+```
+
+``` c#
+public static async Task PublishAsync()
+{
+    var config = new ProducerConfig
+    {
+        BootstrapServers = "docker-pve.localdomain:9092",
+        ClientId = Dns.GetHostName()
+    };
+
+
+    using (var producer = new ProducerBuilder<Null, string>(config).Build())
+    {
+        for (var i = 0; i < 2000; i++)
+        {
+            await producer.ProduceAsync("weblogs", new Message<Null, string> { Value = $"hello world - {i}" }).ContinueWith(task =>
+            {
+                if (task.IsFaulted)
+                {
+
+                }
+                else
+                {
+
+                    Console.WriteLine($"Wrote to offset: {task.Result.Offset}");
+                }
+            });
+        }
+    }
+}
+
+public static void ConsumeAsync()
+{
+    var config = new ConsumerConfig
+    {
+        BootstrapServers = "docker-pve.localdomain:9092",
+        GroupId = "foo",
+        AutoOffsetReset = AutoOffsetReset.Earliest
+    };
+
+    bool cancelled = false;
+    using (var consumer = new ConsumerBuilder<Ignore, string>(config).Build())
+    {
+        consumer.Subscribe("weblogs");
+
+        while (!cancelled)
+        {
+            var result = consumer.Consume(100);
+
+            if (result != null)
+            {
+                var msg = result.Message.Value;
+                Console.WriteLine(msg);
+            }
+
+        }
+
+        consumer.Close();
+    }
+}
+```
