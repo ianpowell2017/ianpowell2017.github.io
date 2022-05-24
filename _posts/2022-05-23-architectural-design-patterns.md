@@ -130,9 +130,6 @@ Prioritize requests sent to services so that requests with a higher priority are
 
 Enable an application to announce events to multiple interested consumers asynchronously, without coupling the senders to the receivers.
 
-
-## Read up o here!
-
 ### [Queue based load leveling](https://docs.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling)
 
 Use a queue that acts as a buffer between a task and a service it invokes in order to smooth intermittent heavy loads that can cause the service to fail or the task to time out. This can help to minimize the impact of peaks in demand on availability and responsiveness for both the task and the service.
@@ -145,7 +142,7 @@ Many services use a [throttling](#throttling) pattern to control the resources t
 
 Enable an application to handle transient failures when it tries to connect to a service or network resource, by transparently retrying a failed operation. This can improve the stability of the application.
 
-### [Sage](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga) - [Example code](https://vasters.com/archive/Sagas.html)
+### [Saga](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga) - [Example code](https://vasters.com/archive/Sagas.html)
 
 The Saga design pattern is a way to manage data consistency across microservices in distributed transaction scenarios. A saga is a sequence of transactions that updates each service and publishes a message or event to trigger the next transaction step. If a step fails, the saga executes compensating transactions that counteract the preceding transactions.
 
@@ -156,6 +153,10 @@ Coordinate a set of distributed actions as a single operation. If any of the act
 ### [Sequential convoy](https://docs.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy)
 
 Process a set of related messages in a defined order, without blocking processing of other groups of messages.
+
+
+## Read up to here
+
 
 ### [Sharding](https://docs.microsoft.com/en-us/azure/architecture/patterns/sharding)
 
