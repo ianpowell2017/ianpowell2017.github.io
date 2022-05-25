@@ -154,10 +154,6 @@ Coordinate a set of distributed actions as a single operation. If any of the act
 
 Process a set of related messages in a defined order, without blocking processing of other groups of messages.
 
-
-## Read up to here
-
-
 ### [Sharding](https://docs.microsoft.com/en-us/azure/architecture/patterns/sharding)
 
 Divide a data store into a set of horizontal partitions or shards. This can improve scalability when storing and accessing large volumes of data.
