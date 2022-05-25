@@ -8,6 +8,7 @@ mermaid: true
 ---
 
 ## Example Diary
+
 ```mermaid
 gantt
     title Wednesday 3rd July 2019 - Tuesday 16th July 2019
