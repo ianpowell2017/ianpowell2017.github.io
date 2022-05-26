@@ -1,5 +1,5 @@
 ---
-title: JavaScript Self Executing Function
+title: Immediately-Invoked Function Expression
 author: ianpowell
 date: 2016-07-23 18:54:00 +0100
 categories: [.net]
