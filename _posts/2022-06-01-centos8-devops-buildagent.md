@@ -66,6 +66,6 @@ Logout of buildagent account
 
 ``` shell
 cd /build
-./svc.cmd install
-./svc.cmd start
+./svc.sh install
+./svc.sh start
 ```
