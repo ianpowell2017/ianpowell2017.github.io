@@ -95,3 +95,18 @@ cd build
 ./svc.sh stop
 ./svc.sh start
 ```
+
+### Potential errors
+
+The user's home directory could not be determined. Set the 'DOTNET_CLI_HOME' environment variable to specify the directory to use.
+
+#### Solution
+
+Add `Environment=DOTNET_CLI_HOME=/tmp` to the service file automatically created.
+
+``` shell
+systemctl daemon-reload
+
+./svc.sh stop
+./svc.sh start
+```
