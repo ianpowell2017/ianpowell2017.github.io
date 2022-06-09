@@ -26,13 +26,15 @@ dnf config-manager --add-repo https://download.mono-project.com/repo/centos8-sta
 sudo dnf install mono-complete -y
 ```
 
-## Add build user
+## Build Agent
+
+### Add build user
 
 ``` shell
 sudo useradd buildagent
 ```
 
-## Download Build Agent
+### Download agent
 
 [Microsoft article](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops)
 
@@ -45,9 +47,7 @@ cd ..
 chown -R buildagent:buildagent ./build
 ```
 
-### Install Build Agent
-
-#### Configure agent
+### Configure agent
 
 ``` shell
 su -l buildagent
@@ -55,13 +55,13 @@ cd /build
 ./config.sh
 ```
 
-#### Run agent to test
+### Run agent to test
 
 ``` shell
 ./run.cmd
 ```
 
-#### Run agent as a service
+### Run agent as a service
 
 Logout of buildagent account
 `exit`
