@@ -69,3 +69,27 @@ cd /build
 ./svc.sh install
 ./svc.sh start
 ```
+
+## Install Chrome browser for Web UI testing
+
+[Stack overflow link](https://stackoverflow.com/questions/46109812/steps-to-install-and-run-headless-chrome-browser-on-centos-6-5-using-chrome-driv)
+
+``` shell
+wget https://chromedriver.storage.googleapis.com/100.0.4896.20/chromedriver_linux64.zip
+
+mkdir /chrome
+cd /chrome
+unzip ~/chromedriver_linux64.zip
+
+./chromedriver --version
+cd ~
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+sudo yum install google-chrome-stable_current_x86_64.rpm
+
+cd /nas
+cd build
+./svc.sh stop
+./svc.sh start
+```
