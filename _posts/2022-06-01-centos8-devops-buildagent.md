@@ -34,6 +34,8 @@ sudo useradd buildagent
 
 ## Download Build Agent
 
+[Microsoft article](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops)
+
 ``` shell
 wget https://vstsagentpackage.azureedge.net/agent/2.204.0/vsts-agent-linux-x64-2.204.0.tar.gz
 mkdir /build
