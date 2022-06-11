@@ -5,6 +5,7 @@ date: 2022-06-10 18:32:00 +0100
 categories: [Learning]
 tags: [js,ReactJs]
 ---
+
 ## Why do we need Redux in a React app?
 
 In a large application you will commonly have a large amount of state.  The solutions are either to have the state in the most parent component and pass the values down via props or each component has local state.
