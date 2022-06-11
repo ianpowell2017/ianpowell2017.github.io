@@ -49,7 +49,7 @@ ReactDOM.render(
 );
 ```
 
-**See more in the attended learning course examples -> CH03**
+[See more in the attended learning course examples -> CH03](/assets/misc/Ex_Files_Building_Modern_Projects_React.zip)
 
 ## To maintain state across browser refreshes use `Redux Persist`
 
