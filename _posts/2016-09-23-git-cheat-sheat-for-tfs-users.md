@@ -2,7 +2,7 @@
 title: Git Cheat Sheet for TFS Users
 author: ianpowell
 date: 2016-09-23 10:33:00 +0100
-categories: [git,tfs]
+categories: [git]
 tags: []
 ---
 
