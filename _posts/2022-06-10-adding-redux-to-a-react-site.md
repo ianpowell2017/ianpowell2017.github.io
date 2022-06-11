@@ -131,7 +131,7 @@ Move **data fetching or sending** outside of a component, components should only
 
 ### Install and configure `Redux Thunk`
 
-**See CH04 in the example bundle**
+[See CH04 in the example bundle](/assets/misc/Ex_Files_Building_Modern_Projects_React.zip)
 
 `npm install redux-thunk redux-devtools-extension @babel/runtime`
 
@@ -225,7 +225,7 @@ export const displayAlert = text => () => {
 
 Selectors give us a place to put logic for combining, filtering, transforming storing data. This way if/when the way the data is stored in state changes, you only have to update the `selectors.js` file
 
-**See CH05 in the example bundle**
+[See CH05 in the example bundle](/assets/misc/Ex_Files_Building_Modern_Projects_React.zip)
 
 Create `selectors.js`
 
@@ -298,7 +298,7 @@ export const getIncompleteTodos = createSelector(
 
 Allow us to define styles inside our JavaScript files
 
-**See CH06 in the example bundle**
+[See CH06 in the example bundle](/assets/misc/Ex_Files_Building_Modern_Projects_React.zip)
 
 `npm install styled-components`
 
@@ -352,7 +352,7 @@ const BigRedTextWithWarning = styled(BigRedText)`
 
 ## Testing
 
-**See CH07 in the example bundle**
+[See CH07 in the example bundle](/assets/misc/Ex_Files_Building_Modern_Projects_React.zip)
 
 ### Setup
 
