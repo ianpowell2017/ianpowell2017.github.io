@@ -28,3 +28,4 @@ pin: true
 - [ ] [Lunch and learn videos](https://www.jamesshore.com/v2/projects/lunch-and-learn)
 - [ ] [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-gb/learn/paths/azure-well-architected-framework/)
 - [ ] [ASP.NET Core: Building a GraphQL API](https://www.linkedin.com/learning/asp-dot-net-core-building-a-graphql-api)
+- [ ] [Web UI testing framework written in TypeScript and is cross platform - PlayWright](https://playwright.dev/)
