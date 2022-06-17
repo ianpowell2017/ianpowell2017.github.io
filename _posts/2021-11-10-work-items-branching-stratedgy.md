@@ -12,7 +12,7 @@ tags: [best-practice]
 
 A user story should always belong to whoever requested the work to be completed (usually someone wearing the Product Owner metaphorical 'hat') - That said, it is not a requirement for it to be authored by them.
 
-It should include a clear and agreed acceptance criteria, that once achieved completes that story.  If it is deemed as too large (it has story points greater than 8 - see [Sizing guide](2021-02-22-sizing-guide)), then it should be split into multiple stories and include a [feature flag strategy](2021-02-21-feature-flags) so that it can still be deployed into the Live environment safely knowing that it will not function until the feature flag has been enabled.
+It should include a clear and agreed acceptance criteria, that once achieved completes that story.  If it is deemed as too large (it has story points greater than 8 - see [Sizing guide](/_posts/2021-02-22-sizing-guide.md)), then it should be split into multiple stories and include a [feature flag strategy](/_posts/2021-02-21-feature-flags.md) so that it can still be deployed into the Live environment safely knowing that it will not function until the feature flag has been enabled.
 
 ### Tasks
 
