@@ -1,30 +1,7 @@
----
-title: Architectural Decision Record
-author: ianpowell
-date: 2021-08-21 08:43:00 +0100
-categories: [ways-of-working]
-tags: [best-practice]
----
-
-# Architectural Design Record template
-
-|Issue  |Status  | Date|
-|--|--|--|
-| Whats the issue?  | Is it decided?  | Date decision made |  
-
-Reference [architecture_decisions-tree.pdf](/assets/misc/architecture_decisions-tree.pdf)
-
-https://ardalis.com/getting-started-with-architecture-decision-records/
-
-[Template.md file](/assets/misc/architecture-decision-record-template.md)
----
-
 # CSS framework
 
 Contents:
 
-- [Architectural Design Record template](#architectural-design-record-template)
-  - [Template.md file](#templatemd-file)
 - [CSS framework](#css-framework)
   - [Summary](#summary)
     - [Issue](#issue)
