@@ -22,7 +22,7 @@ The developer should create Tasks on the User Story that they feel are necessary
 
 A very successful branching model which was conceived more than 10 years ago and has been used by many software departments, was first published on [nvie.com](https://nvie.com/posts/a-successful-git-branching-model/), later it was made available and called [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
-![Git branching model](../assets/img/git-model@2x.png)
+![Git branching model](/assets/img/git-model@2x.png)
 
 We have adopted this strategy and it has been integrated into our deployment pipeline.  This requires branch names to be formatted in the following way
 
