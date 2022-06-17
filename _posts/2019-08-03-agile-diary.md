@@ -2,8 +2,8 @@
 title: Agile sprint calendar
 author: ianpowell
 date: 2019-08-03 18:33:00 +0100
-categories: [agile]
-tags: []
+categories: [working]
+tags: [agile]
 mermaid: true
 ---
 

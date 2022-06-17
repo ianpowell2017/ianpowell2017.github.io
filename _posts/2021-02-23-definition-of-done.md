@@ -2,7 +2,7 @@
 title: Definition of Done
 author: ianpowell
 date: 2021-02-23 10:33:00 +0100
-categories: [agile]
+categories: [ways-of-working]
 tags: [best-practice]
 ---
 

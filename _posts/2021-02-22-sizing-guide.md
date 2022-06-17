@@ -2,8 +2,8 @@
 title: Sizing guide
 author: ianpowell
 date: 2021-02-22 10:43:00 +0100
-categories: [agile]
-tags: [best-practice]
+categories: [ways-of-working]
+tags: [agile,best-practice]
 ---
 
 Product owners and managers always want dates or the number of days work will take to be completed.  The problem is that WE developers cannot say for sure, but what we can agree on is how big a problem actually is.
