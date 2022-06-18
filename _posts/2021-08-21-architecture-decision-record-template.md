@@ -8,8 +8,8 @@ tags: [best-practice]
 
 # Architectural Design Record template
 
-|Issue  |Status  | Date|
-|--|--|--|
+|Issue              |Status           |Date                |
+|-------------------|-----------------|--------------------|
 | Whats the issue?  | Is it decided?  | Date decision made |  
 
 Reference [architecture_decisions-tree.pdf](/assets/misc/architecture_decisions-tree.pdf)
