@@ -14,7 +14,7 @@ tags: [best-practice]
 
 Reference [architecture_decisions-tree.pdf](/assets/misc/architecture_decisions-tree.pdf)
 
-https://ardalis.com/getting-started-with-architecture-decision-records/
+[Getting started with architecture decision records](https://ardalis.com/getting-started-with-architecture-decision-records/)
 
 [Template.md file](/assets/misc/architecture-decision-record-template.md)
 ---
