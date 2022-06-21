@@ -9,7 +9,7 @@ tags: [best-practice]
 # Architectural Design Record template
 
 ``` markdown
-|Issue              |Status           |Date                |
+| Issue             | Status          | Date               |
 |-------------------|-----------------|--------------------|
 | Whats the issue?  | Is it decided?  | Date decision made |  
 ```
