@@ -20,6 +20,7 @@ https://ardalis.com/getting-started-with-architecture-decision-records/
 
 ---
 
+```` markdown
 # CSS framework
 
 Contents:
@@ -43,9 +44,7 @@ Contents:
     - [Related principles](#related-principles)
   - [Notes](#notes)
 
-
 ## Summary
-
 
 ### Issue
 
@@ -57,19 +56,15 @@ We want to use a CSS framework to create our web applications:
 
   * We want responsive applications, especially for smaller screens such as on mobile devices, larger screens such as on 4K widescreens, and dynamic screens such as rotatable displays.  
 
-
 ### Decision
 
 Decided on Bulma.
-
 
 ### Status
 
 Decided on Bulma. Open to new CSS framework choices as they arrive.
 
-
 ## Details
-
 
 ### Assumptions
 
@@ -82,7 +77,6 @@ Typical modern web apps are reducing/eliminating the use of jQuery because of mu
   * jQuery's broad approach is to do direct DOM manipulation, which is an anti-pattern for modern JavaScript frameworks (e.g. React, Vue, Svelte)
 
   * jQuery interferes with itself if it's loaded twice, etc.
-
 
 ### Constraints
 
@@ -110,9 +104,9 @@ Example with Semantic:
 
 We considered Bulma. Bulma has many similar capabilties as Semantic UI, although not as many sophisticated components. Bulma is built with modern techniques, such as no jQuery. Bulma has some third-party components, some of which we may want to use.
 
-
 Example with Bulma:
-```html
+
+``` html
 <div class="tabs">
   <ul>
     <li><a>Alpha</a></li>
@@ -121,26 +115,21 @@ Example with Bulma:
 </div>
 ```
 
-
 ### Argument
 
 As above.
 
 Specifically, Semantic UI seems to have a caution flag both in terms of technology (i.e. so many jQuery touchpoints) and also in terms of leadership (i.e. jQuery-free was a hard no, rather than attemping a roadmap, or continous improvement, or donation fundraising, etc.).
 
-
 ### Implications
 
 If we find a good non-jQuery CSS framework, this is generally helpful and good overall.
 
-
 ## Related
-
 
 ### Related decisions
 
 The CSS framework we choose may affect testability.
-
 
 ### Related requirements
 
@@ -148,11 +137,9 @@ We want to ship a purely-modern app fast.
 
 We do not want to spend time working on older frameworks (esp. Semantic UI) using older dependencies (esp. jQuery).
 
-
 ### Related artifacts
 
 Affects all the typical HTML that will use the CSS.
-
 
 ### Related principles
 
@@ -160,7 +147,7 @@ Easily reversible.
 
 Need for speed.
 
-
 ## Notes
 
 Any notes here.
+````
