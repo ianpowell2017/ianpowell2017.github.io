@@ -6,7 +6,7 @@ categories: [ways-of-working]
 tags: [best-practice]
 ---
 
-# Architecture Design Record template
+# Architecture Decision Record template
 
 ``` markdown
 | Issue             | Status          | Date               |
@@ -27,7 +27,7 @@ References
 
 Contents:
 
-- [Architecture Design Record template](#architecture-design-record-template)
+- [Architecture Decision Record template](#architecture-decision-record-template)
 - [CSS framework](#css-framework)
   - [Summary](#summary)
     - [Issue](#issue)
