@@ -16,8 +16,8 @@ tags: [best-practice]
 
 References
 - [architecture_decisions-tree.pdf](/assets/misc/architecture_decisions-tree.pdf)
-- https://ardalis.com/getting-started-with-architecture-decision-records/
-- https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+- [https://ardalis.com/getting-started-with-architecture-decision-records/](https://ardalis.com/getting-started-with-architecture-decision-records/)
+- [https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 
 
 ---
