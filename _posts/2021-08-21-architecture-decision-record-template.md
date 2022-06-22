@@ -1,12 +1,12 @@
 ---
-title: Architectural Decision Record
+title: Architecture Decision Record
 author: ianpowell
 date: 2021-08-13 08:43:00 +0100
 categories: [ways-of-working]
 tags: [best-practice]
 ---
 
-# Architectural Design Record template
+# Architecture Design Record template
 
 ``` markdown
 | Issue             | Status          | Date               |
@@ -27,7 +27,7 @@ References
 
 Contents:
 
-- [Architectural Design Record template](#architectural-design-record-template)
+- [Architecture Design Record template](#architecture-design-record-template)
 - [CSS framework](#css-framework)
   - [Summary](#summary)
     - [Issue](#issue)
