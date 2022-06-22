@@ -14,9 +14,11 @@ tags: [best-practice]
 | Whats the issue?  | Is it decided?  | Date decision made |  
 ```
 
-Reference [architecture_decisions-tree.pdf](/assets/misc/architecture_decisions-tree.pdf)
+References
+- [architecture_decisions-tree.pdf](/assets/misc/architecture_decisions-tree.pdf)
+- https://ardalis.com/getting-started-with-architecture-decision-records/
+- https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
 
-https://ardalis.com/getting-started-with-architecture-decision-records/
 
 ---
 
