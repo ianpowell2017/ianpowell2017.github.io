@@ -3,7 +3,7 @@ title: Kafka notes
 author: ianpowell
 date: 2022-05-18 12:34:00 +0100
 categories: [kafka]
-tags: [c#]
+tags: [c#,linux]
 ---
 
 ## Kafka

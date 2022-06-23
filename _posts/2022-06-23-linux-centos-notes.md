@@ -3,7 +3,7 @@ title: Centos 8 notes
 author: ianpowell
 date: 2022-06-23 11:32:00 +0100
 categories: [learning]
-tags: [Centos,Centos8,linux]
+tags: [centos,centos8,linux]
 ---
 
 # Using Centos 8 notes
