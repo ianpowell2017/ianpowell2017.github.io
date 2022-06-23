@@ -3,7 +3,7 @@ title: Adding Redux to a React app
 author: ianpowell
 date: 2022-06-10 18:32:00 +0100
 categories: [learning]
-tags: [js,ReactJs]
+tags: [js,react-js]
 ---
 
 ## Why do we need Redux in a React app?
