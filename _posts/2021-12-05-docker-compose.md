@@ -2,11 +2,13 @@
 title: Docker compose file
 author: ianpowell
 date: 2021-12-05 14:20:00 +0000
-categories: [docker]
-tags: [c#]
+categories: [linux]
+tags: [c#,docker]
 ---
+
 At the root of the project create a file: `docker-compose.yml`
-```dockerfile
+
+``` dockerfile
 version: '3'
 services:
   api:
@@ -32,19 +34,24 @@ services:
     volumes:
       - ./db:/docker-entrypoint-initdb.d
 ```
+
 ## To run the docker compose file
-```bash
+
+``` bash
 docker-compose up
 ```
+
 ## To push your container to docker hub
+
 ```bash
 docker tag {imageId} {username name}/{container name}:{tag name}
 ```
 ## To log into your docker account
-```bash
+
+``` bash
 docker login
 ```
 
-```bash 
+``` bash 
 docker push {username}/{container name}:{tag name}
 ```

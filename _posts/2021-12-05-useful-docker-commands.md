@@ -7,57 +7,68 @@ tags: [docker]
 ---
 
 ## Docker Version
-```bash
+
+``` bash
 docker -v
 ```
 
 ## List Docker images
-```bash
+
+``` bash
 docker image list
 ```
 
 ## Download an image
-```bash
+
+``` bash
 docker pull nginx:1.13.8
 ```
 
 ## Remove docker image
-```bash
+
+``` bash
 docker rmi {image id}
 ```
 
 ## Run an image and then interact with the command line
-```bash
+
+``` bash
 docker run -it nginx:1.13.8 /bin/bash
 ```
 
 ## Execute commands within an already running container
-```bash
+
+``` bash
 docker exec -it containername /bin/bash
 ```
 
 ## List containers running
-```bash
+
+``` bash
 docker container list
 ```
 
 ## List containers running or stopped
-```bash
+
+``` bash
 docker container list -a
 ```
 
 ## Stop a container
-```bash
+
+``` bash
 docker stop {container id}
 ```
 
 ## Remove a container
-```bash
+
+``` bash
 docker rm {container id}
 ```
 
 ## Copy files into a container
-```bash
+
+``` bash
 docker cp /tmp/config.ini grafana:/usr/share/grafana/conf/
 docker cp /tmp/config.ini 1477326feb62:/usr/share/grafana/conf/
 ```

@@ -2,8 +2,8 @@
 title: To dockerize a visual studio project
 author: ianpowell
 date: 2021-12-05 14:13:00 +0100
-categories: [docker]
-tags: [aspnet]
+categories: [linux]
+tags: [aspnet,docker]
 ---
 
 If creating a new project, then `Enable docker support` during project creation
@@ -13,7 +13,7 @@ OR
 1. Create a file in the project root called `Dockerfile` (no extension)
 2. Inside the file
 
-```dockerfile
+``` dockerfile
 FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /build
 COPY . .
@@ -27,12 +27,14 @@ ENTRYPOINT ["dotnet", "ConferenceApp.dll"]
 ```
 
 To build image (from project root)
-: ```bash
+
+```bash
 docker build -t conference/api .
 ```
 
 To remove the image
-: ```bash
+
+``` bash
 docker system prune
 ```
     
@@ -43,11 +45,13 @@ docker system prune
 
 
 To run a docker image
-: ```bash
+
+``` bash
 docker run -d —name {chosen name} {image name:tag}
 ```
 
 If an image has exited with a status code of other than 0, then it has not exited properly, perhaps there’s an error
-: ```bash
+
+``` bash
 docker logs {container name}
 ```
