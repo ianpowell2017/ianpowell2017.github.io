@@ -3,8 +3,9 @@ title: nginx config
 author: ianpowell
 date: 2021-12-21 13:40:00 +0000
 categories: [nginx]
-tags: []
+tags: [linux]
 ---
+
 ## Nginx.conf
 
 ```nginx
