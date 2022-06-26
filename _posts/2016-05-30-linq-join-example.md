@@ -6,7 +6,7 @@ categories: [.net]
 tags: [c#,linq]
 ---
 
-## Linq 'Join'
+## Example
 
 ``` csharp
 var joined = from Item1 in list1

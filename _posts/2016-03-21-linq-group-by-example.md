@@ -6,7 +6,7 @@ categories: [.net]
 tags: [c#,linq]
 ---
 
-## Linq 'Group by'
+## Example
 
 ``` csharp
 var query = (from t in Transactions
