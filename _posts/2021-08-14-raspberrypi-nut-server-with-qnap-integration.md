@@ -2,8 +2,8 @@
 title: RaspberryPi NUT server with QNAP integration
 author: ianpowell
 date: 2021-08-14 13:23:00 +0100
-categories: [raspberrypi]
-tags: [nut-server,linux]
+categories: [linux]
+tags: [nut-server,raspberrypi]
 ---
 
 References
