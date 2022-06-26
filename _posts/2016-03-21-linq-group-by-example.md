@@ -1,14 +1,12 @@
 ---
-title: Linq examples
+title: Linq 'Group by' example
 author: ianpowell
-date: 2016-05-30 13:24:00 +0000
+date: 2016-05-30 12:55:00 +0100
 categories: [.net]
 tags: [c#,linq]
 ---
 
-Linq examples
-
-## Group by
+## Linq 'Group by'
 
 ``` csharp
 var query = (from t in Transactions
@@ -22,12 +20,3 @@ var query = (from t in Transactions
                     }).ToList();
 ```
 From <http://stackoverflow.com/questions/847066/group-by-multiple-columns> 
-
-## Join
-
-``` csharp
-var joined = from Item1 in list1
-             join Item2 in list2
-             on Item1.Id equals Item2.Id // join on some property
-             select new { Item1, Item2 };
-```
