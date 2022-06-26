@@ -2,7 +2,7 @@
 title: Using Centos 8 Stream as a self hosted build agent
 author: ianpowell
 date: 2022-06-01 18:12:00 +0100
-categories: [ways-of-working]
+categories: [linux]
 tags: [centos,centos8,linux]
 ---
 
