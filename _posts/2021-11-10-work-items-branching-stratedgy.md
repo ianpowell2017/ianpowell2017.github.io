@@ -31,6 +31,8 @@ In various companies I have worked, I have implemented this and subsequently int
 
 As per the Git Flow model, *feature* branches should have the parent branch set to *dev* and *task* branches should have the parent branch set to their respective *feature* branch.
 
+Having the user story / task number in the branch name, makes it easier for someone to cross check stale branches to validate if the branch is no longer required.
+
 Pull request reviews are not required when merging *task* branches into *feature* branches.  However they are necessary when merging the *feature* branch into the *dev* branch.
 
 Once the User story / Feature is deemed complete then it should be merged into the *dev* branch via the Pull Request procedure.
