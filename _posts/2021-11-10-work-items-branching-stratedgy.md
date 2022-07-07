@@ -24,7 +24,7 @@ A very successful branching model which was conceived more than 10 years ago and
 
 ![Git flow work flow](/assets/img/feature-branching-strategy.svg)
 
-In various companie I have worked, I have implemented this and subsequently integrated it into deployment pipelines.  This requires branch names to be formatted in the following way
+In various companies I have worked, I have implemented this and subsequently integrated it into deployment pipelines.  This requires branch names to be formatted in the following way
 
 - **feature/{user story number}-title-of-the-user-story**
 - **task/{task number}-title-of-the-task**
