@@ -9,7 +9,7 @@ mermaid: true
 
 ## Example Diary
 
-```mermaid
+<!-- ```mermaid
 gantt
     title Wednesday 3rd July 2019 - Tuesday 16th July 2019
 
@@ -29,7 +29,9 @@ gantt
     Previous sprint review  :active, sprintreview2, 2019-07-17, 1h    
     Retrospective           :active, retrospective2, after sprintreview2, 1h    
     Sprint planning         :active, sprintplanning2, after retrospective2, 1h
-```
+``` -->
+
+![Agile calendar](/assets/img/agile-calendar.png)
 
 | Week | Monday        | Tuesday | Wednesday                                               | Thursday      | Friday |
 |------|---------------|---------|---------------------------------------------------------|---------------|--------|
