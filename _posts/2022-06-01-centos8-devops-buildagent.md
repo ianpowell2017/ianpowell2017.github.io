@@ -8,22 +8,34 @@ tags: [centos,centos8]
 
 ## Install dependencies
 
+**Important:** Boot using the `root` account
+
 ``` shell
-sudo dnf update -y
-sudo dnf install git -y
+dnf update -y
+dnf install git -y
 
 rpm -Uvh https://packages.microsoft.com/config/rhel/7/packages-microsoft-prod.rpm
-sudo dnf install dotnet-sdk-2.1 -y
+dnf install dotnet-sdk-2.1 -y
 
 # Update package reference, otherwise you'll get the 6.0 RC version
-sudo rpm -Uvh https://packages.microsoft.com/config/centos/8/packages-microsoft-prod.rpm
+rpm -Uvh https://packages.microsoft.com/config/centos/8/packages-microsoft-prod.rpm
 echo 'priority=50' | sudo tee -a /etc/yum.repos.d/microsoft-prod.repo
 
-sudo dnf install dotnet-sdk-6.0 -y
+dnf install dotnet-sdk-6.0 -y
+
+dnf install dotnet-sdk-7.0 -y
+
+dnf install aspnetcore-runtime-7.0 -y
+
+dnf install dotnet-runtime-7.0 -y
+
+dnf module enable nodejs:18
+
+dnf install nodejs -y
 
 # Add Mono Repo
 dnf config-manager --add-repo https://download.mono-project.com/repo/centos8-stable.repo
-sudo dnf install mono-complete -y
+dnf install mono-complete -y
 ```
 
 ## Build Agent
@@ -31,7 +43,9 @@ sudo dnf install mono-complete -y
 ### Add build user
 
 ``` shell
-sudo useradd buildagent
+useradd buildagent
+passwd buildagent
+usermod -aG wheel buildagent
 ```
 
 ### Download agent
@@ -58,7 +72,7 @@ cd /build
 ### Run agent to test
 
 ``` shell
-./run.cmd
+./run.sh
 ```
 
 ### Run agent as a service
