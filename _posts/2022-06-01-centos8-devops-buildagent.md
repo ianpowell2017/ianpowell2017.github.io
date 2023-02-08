@@ -36,6 +36,8 @@ dnf install nodejs -y
 # Add Mono Repo
 dnf config-manager --add-repo https://download.mono-project.com/repo/centos8-stable.repo
 dnf install mono-complete -y
+
+yum install -y powershell
 ```
 
 ## Build Agent
