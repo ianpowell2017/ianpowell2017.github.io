@@ -4,7 +4,6 @@ author: ianpowell
 date: 2022-01-01 00:00:00 +0000
 categories: []
 tags: []
-pin: true
 ---
 
 - [ ] [Microsoft - Whats new in ASP.NET Core 5](https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-5.0?view=aspnetcore-6.0)
