@@ -26,7 +26,7 @@ eg. `cd /nas/nopCommerce-test`
 
 ## Ownership
 
-- `sudo chown www-data:www-data _filenamehere_` - Change ownership of files in `_filenamehere_` to belong to `www-data`
+- `sudo chown www-data:www-data fileName` - Change ownership of files in `fileName` to belong to `www-data`
 
   **NOTE:** When files are uploaded using the drag and drop (scp) files are written using your account. For Kestrel to be able to run / access then, the ownership needs to be changed to the account which kestrel runs under `www-data`
 
