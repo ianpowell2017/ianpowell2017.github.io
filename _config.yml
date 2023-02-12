@@ -12,8 +12,6 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/London
@@ -21,15 +19,15 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Developer notes                # the main title
+title: Developer notes                 # the main title
 
 tagline: Every day is a school day   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
-# fill in the protocol & hostname for your site, e.g., 'https://ianpowell.github.io'
-url: 'http://ian.ijpuk.com'
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: ''
 
 github:
   username: ianpowell2017             # change to your github username
@@ -73,14 +71,14 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   light
+theme_mode:   # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-#img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
+#img_cdn: 'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/img/Profile-Head.gif'
@@ -99,13 +97,14 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:             # <gh-username>/<repo>
+    repo:              # <gh-username>/<repo>
     repo_id:
     category:
     category_id:
-    mapping:          # optional, default to 'pathname'
-    input_position:   # optional, default to 'bottom'
-    lang:             # optional, default to the value of `site.lang`
+    mapping:           # optional, default to 'pathname'
+    input_position:    # optional, default to 'bottom'
+    lang:              # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
@@ -114,7 +113,6 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
-
 
 pwa:
   enabled: true   # the option for PWA feature
@@ -186,6 +184,7 @@ exclude:
   - '*.gemspec'
   - tools
   - README.md
+  - CHANGELOG.md
   - LICENSE
   - gulpfile.js
   - node_modules

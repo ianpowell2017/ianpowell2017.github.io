@@ -58,7 +58,7 @@ $ bundle
 Run the following command in the root directory of the site:
 
 ```console
-$ bundle exec jekyll serve
+$ bundle exec jekyll s
 ```
 
 Or run with Docker:
