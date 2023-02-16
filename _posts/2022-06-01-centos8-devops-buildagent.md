@@ -79,10 +79,9 @@ cd /build
 
 ### Run agent as a service
 
-Logout of buildagent account
-`exit`
-
 ``` shell
+su -l buildagent
+
 cd /build
 ./svc.sh install
 ./svc.sh start
