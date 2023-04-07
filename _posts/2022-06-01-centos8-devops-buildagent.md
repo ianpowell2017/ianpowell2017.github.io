@@ -111,6 +111,26 @@ cd build
 ./svc.sh start
 ```
 
+## Enable the build agent to deploy SQL scripts
+
+``` shell
+sudo curl -o /etc/yum.repos.d/msprod.repo https://packages.microsoft.com/config/rhel/8/prod.repo```
+sudo yum remove unixODBC-utf16 unixODBC-utf16-devel
+sudo yum install mssql-tools unixODBC-devel
+Do you accept the license terms? (Enter YES or NO)
+```
+- yes
+- yes
+
+``` shell
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+source ~/.bashrc
+```
+To execute as part of build
+
+`/opt/mssql-tools/bin/sqlcmd -S servername,1433 -U yourusername -P 'your password' -d databasename -i script.sql`
+
 ### Potential errors
 
 The user's home directory could not be determined. Set the 'DOTNET_CLI_HOME' environment variable to specify the directory to use.
