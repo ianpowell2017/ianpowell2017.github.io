@@ -1,12 +1,10 @@
 ---
-title: Building Web Applications
+title: Just one JavaScript asset away from getting tickets
 author: ianpowell
 date: 2024-08-31 11:32:00 +0000
 categories: [Blogging]
 tags: [best-practice]
 ---
-
-# Just one JavaScript asset away from getting tickets
 
 Building web applications is a complicated business and we are taught to break up applications into re-usable parts.  This is to remove unnecessary duplication and centralise code and to leverage inbuilt browser caching.  For most websites this works well but in high traffic situations this can become problematic, this I saw earlier today when I had the task of trying to buy Oasis tickets for their reunion tour taking place in 2025.
 
